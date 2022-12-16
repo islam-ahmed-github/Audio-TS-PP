@@ -1,5 +1,5 @@
 # **Audio-TS-PP**
-Audio basic preprocesing stage, windowing/Framing with overlap if required, detect and remove silence frames and apply a Pre-emphasize filter.\
+Audio basic preprocessing stage, windowing/Framing with overlap if required, detect and remove silence frames and apply a Pre-emphasize filter.\
 written in cpp with minimal modification required to use the methods in c. 
 
 
