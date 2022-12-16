@@ -16,5 +16,5 @@ NONE.
 # **USAGE**
 1- create an object of `PreProcessor` class.\
 2- the audio signal is a continous signal, to process it we should perform windowing/framing (some cases require the frames to be overlapped), then it will be quasi-stationary signal, we then process it frame by frame, use the method `PP_GetOverlappedFrames` to convert the continous signal to (overlapped if required) frames of equal length.\
-3- use the different preprocessing method for each frame according the requirements.
+3- use the different preprocessing methods for each frame according to the requirements.
 
